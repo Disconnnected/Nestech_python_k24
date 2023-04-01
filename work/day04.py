@@ -1,3 +1,11 @@
-from day03 import total
+# variable = value
 
-print(total(10,20))
+def total(a, b):
+    """
+    summary of 2 int
+    """
+    return a + b
+
+x = total(10, 20)
+
+print(x)

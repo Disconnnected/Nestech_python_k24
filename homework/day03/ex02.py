@@ -14,3 +14,18 @@ ví dụ:
 ******
 
 """
+
+# def square(a):
+
+# print("*")
+# print("**")
+# print("***")
+# print("****")
+# print("*****")
+
+def square(a):
+    for i in range(a):
+        print("*" * i)
+
+
+square(10)

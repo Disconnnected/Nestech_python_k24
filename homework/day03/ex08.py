@@ -12,3 +12,10 @@ example:
     - wow
 
 """
+
+sample_string = "Civic"
+
+if sample_string == sample_string[::-1]:
+    print(f"{sample_string} is palindrome")
+else:
+    print(f"{sample_string} is not a palindrome")
